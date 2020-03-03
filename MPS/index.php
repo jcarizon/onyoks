@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <title>
-         Home
-      </title>
-      <link rel="stylesheet"  href="bootstrap.css" type="text/css" media="screen"/>
-      <link rel="stylesheet"  href="style.css" type="text/css" media="screen"/>
-      <!--[if lte IE 8]>
-      <link rel="stylesheet"  href="menuie.css" type="text/css" media="screen"/>
-      <link rel="stylesheet"  href="vmenuie.css" type="text/css" media="screen"/>
-      <![endif]-->
-      <!--[if IE 7]>
-      <style type="text/css" media="screen">
-         #ttr_vmenu_items  li.ttr_vmenu_items_parent {margin-left:-16px;font-size:0px;}
-      </style>
-      <![endif]-->
-      <!--[if lt IE 9]>
-      <script type="text/javascript" src="html5shiv.js"></script>
-      <script type="text/javascript" src="respond.min.js"></script>
-      <![endif]-->
-   </head>
+<?php
+   include 'includes/header.php';
+?>
    <body class="index">
       <div class="totopshow">
-         <a href="#" class="back-to-top"><img alt="Back to Top" src="images/gototop0.png"/></a>
+         <a href="#" class="back-to-top"><img alt="Back to Top" src="assets/images/gototop0.png"/></a>
       </div>
       <!-- totopshow -->
       <header id="ttr_header">
@@ -42,7 +21,7 @@
                <div class="ttr_menu_element_alignment container"></div>
                <div class="ttr_menushape1">
                   <div class="html_content">
-                     <p style="margin:0.36em 0.36em 0.36em 0em;width: 300px;"><a href="index.html" class="tt_link" target="_self"><span style="font-family:'Impact';font-weight:900;font-size:2em;color:rgba(56,55,56,1);">Movie</span><span style="font-family:'Impact';font-weight:900;font-size:2em;color:rgba(0,0,255,1);"> </span><span style="font-family:'Impact';font-weight:900;font-size:2em;color:rgba(231,76,61,1);">Store</span></a></p>
+                     <p style="margin:0.36em 0.36em 0.36em 0em;width: 300px;"><a href="index.php" class="tt_link" target="_self"><span style="font-family:'Impact';font-weight:900;font-size:2em;color:rgba(56,55,56,1);">Movie</span><span style="font-family:'Impact';font-weight:900;font-size:2em;color:rgba(0,0,255,1);"> </span><span style="font-family:'Impact';font-weight:900;font-size:2em;color:rgba(231,76,61,1);">Store</span></a></p>
                   </div>
                </div>
                <div class="ttr_menu_logo"></div>
@@ -66,12 +45,12 @@
                <div class="menu-center collapse navbar-collapse">
                   <ul class="ttr_menu_items nav navbar-nav navbar-right">
                      <li class="ttr_menu_items_parent dropdown active">
-                        <a href="index.html" class="ttr_menu_items_parent_link_active"><span class="menuchildicon"></span>Home</a>
+                        <a href="index.php" class="ttr_menu_items_parent_link_active"><span class="menuchildicon"></span>Home</a>
                         <hr class ="horiz_separator"/>
                      </li>
                      <!-- main menu list closing -->
                      <li class="ttr_menu_items_parent dropdown">
-                        <a href="about-us.html" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>About Us</a>
+                        <a href="about-us.php" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>About Us</a>
                         <hr class ="horiz_separator"/>
                      </li>
                      <!-- main menu list closing -->
@@ -154,7 +133,7 @@
                         <div class="ttr_index_html_column10">
                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                            <div class="html_content">
-                              <p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:667px;max-width:1000px;" src="images/107.jpg" /></span></span></p>
+                              <p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:667px;max-width:1000px;" src="assets/images/107.jpg" /></span></span></p>
                            </div>
                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                            <div style="clear:both;"></div>
@@ -229,7 +208,7 @@
                         <div class="ttr_index_html_column40">
                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                            <div class="html_content">
-                              <p style="text-align:Center;"><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:545px;max-width:400px;margin-top:3em;" src="images/23.jpg" /></span></span></p>
+                              <p style="text-align:Center;"><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:545px;max-width:400px;margin-top:3em;" src="assets/images/23.jpg" /></span></span></p>
                            </div>
                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                            <div style="clear:both;"></div>
@@ -265,13 +244,7 @@
       </footer>
       <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>
       </div><!--page-->
-
-      <script type="text/javascript" src="jquery.js"></script>
-      <script type="text/javascript" src="jquery-ui.min.js"></script>
-      <script type="text/javascript" src="tt_slideshow.js"></script>
-      <script type="text/javascript" src="bootstrap.min.js"></script>
-      <script type="text/javascript" src="customjs.js"></script>
-      <script type="text/javascript" src="contactform.js"></script>
-      <script type="text/javascript" src="totop.js"></script>
    </body>
-</html>
+<?php
+   include 'includes/footer.php';
+?>
